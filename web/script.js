@@ -76,7 +76,7 @@ function resumeTour()
 function onVirtualTourInit()
 {
     var updateTexts = function() {
-        document.title = this.trans("tour.name")
+        document.title = "classroom travel";
     };
 
     tour.locManager.bind(TDV.Tour.LocaleManager.EVENT_LOCALE_CHANGED, updateTexts.bind(tour.locManager));
